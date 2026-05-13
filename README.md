@@ -1,27 +1,78 @@
-# Derya Portfolio
+# Derya Özdemir - Full-Stack Portfolio Website
 
-Full-stack web portfolio built for the final project requirement.
+This project was developed as the final laboratory project for the SEN3002 course.  
+The purpose of this portfolio is to showcase my software development skills, projects, technical background and full-stack web development knowledge.
 
-## Technologies
+---
 
-- HTML5 semantic structure
-- CSS3 responsive layout with Flexbox and Grid
-- JavaScript DOM interaction, validation and Fetch API
-- PHP server-side logic
-- MySQL database persistence
-- Sessions and cookies for admin login
+# Project Features
 
-## Local Setup
+- Responsive modern portfolio design
+- Dynamic project management system
+- Admin dashboard with authentication
+- Add / Edit / Delete project functionality
+- Contact form validation
+- Dark mode interface
+- Database-driven project listing
+- PHP & MySQL backend integration
+- Session and cookie management
+- AJAX/Fetch API project loading
 
-1. Copy the project folder into `C:\xampp\htdocs\derya-portfolio`.
-2. Start Apache and MySQL from XAMPP.
-3. Open phpMyAdmin and import `database/portfolio.sql`.
-4. Visit `http://localhost/derya-portfolio/`.
-5. Admin panel: `http://localhost/derya-portfolio/admin/`
+---
 
-Default admin account:
+# Technologies Used
 
-- Username: `admin`
-- Password: `admin123`
+## Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Flexbox & Grid Layout
+- DOM Manipulation
 
-Change the default password before using the project publicly.
+## Backend
+- PHP
+- MySQL
+- PDO Database Connection
+
+## Other Technologies
+- XAMPP
+- phpMyAdmin
+- Git & GitHub
+
+---
+
+# Admin Panel Features
+
+The project contains a protected admin dashboard system.
+
+Admin users can:
+
+- Add new projects
+- Edit project information
+- Delete projects
+- Control project visibility
+- Manage portfolio content dynamically
+
+Authentication is implemented using:
+
+- PHP Sessions
+- Cookies
+- Password Hashing
+
+---
+
+# Projects Included
+
+- Parent Information System
+- Second-Hand Instrument Sales System
+- Personal Portfolio Website
+- Screen Recorder Application
+
+---
+
+# Local Installation
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/deryyazdmr/derya-portfolio.git
