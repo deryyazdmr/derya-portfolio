@@ -1,0 +1,22 @@
+# Local environment
+.env
+*.local
+
+# Dependencies
+node_modules/
+vendor/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# XAMPP / local exports that should not be committed by accident
+*.bak
+*.tmp
