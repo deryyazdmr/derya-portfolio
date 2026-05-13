@@ -2,43 +2,53 @@
 
 ## Project Overview
 
-This project is a dynamic portfolio website for Derya Ozdemir. It presents personal information, skills, projects and a contact form while also providing an admin dashboard for managing portfolio projects.
+This project is a responsive full-stack portfolio website developed for the SEN3002 laboratory final project. The portfolio represents my professional profile, technical skills, projects and software development background while also providing a dynamic admin dashboard system.
 
-## Implemented Requirements
+The project was developed using HTML, CSS, JavaScript, PHP and MySQL technologies covered during the semester.
 
-- Semantic HTML5 structure with header, navigation, main content, sections, tables and forms.
-- Responsive CSS layout using Flexbox and CSS Grid.
-- External stylesheet with consistent colors, spacing and reusable components.
-- JavaScript dark/light mode, mobile menu, DOM rendering and client-side form validation.
-- AJAX project loading with the Fetch API.
-- PHP API endpoints for project listing and contact message submission.
-- MySQL tables for admins, projects and contact messages.
-- Session-based admin authentication.
-- Cookie usage for remembering the admin username on the login form.
-- Admin dashboard for adding, editing and deleting projects.
-- SQL export file included at `database/portfolio.sql`.
+---
 
-## Database
+# Main Features
 
-Database name: `derya_portfolio`
+- Responsive modern portfolio interface
+- Dark / Light mode support
+- Dynamic project management system
+- Admin dashboard with authentication
+- Add / Edit / Delete project functionality
+- AJAX-based project loading
+- JavaScript form validation
+- PHP backend integration
+- MySQL database system
+- Session and cookie management
+- GitHub and LinkedIn integration
 
-Tables:
+---
 
-- `admins`
-- `projects`
-- `contact_messages`
+# Technologies Used
 
-## Admin Credentials
+## Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Flexbox
+- CSS Grid
 
-Default username: `admin`
+## Backend
+- PHP
+- MySQL
+- PDO
 
-Default password: `admin123`
+## Other Tools
+- XAMPP
+- phpMyAdmin
+- Git
+- GitHub
 
-The default password should be changed before publishing the live demo.
+---
 
-## Future Improvements
+# Database Structure
 
-- Add profile images and project screenshots.
-- Add message listing inside the admin dashboard.
-- Add live project links after deployment.
-- Add stronger deployment-specific security settings.
+Database name:
+
+```txt
+derya_portfolio
